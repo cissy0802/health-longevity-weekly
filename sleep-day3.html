@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>健康长寿 Day 3 — 睡眠科学</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,"SF Pro Display","Noto Sans SC",sans-serif;background:#f0f7f4;color:#1f3a3d;line-height:1.75}
+.container{max-width:820px;margin:0 auto;padding:24px 20px 60px}
+header{text-align:center;padding:48px 0 28px;border-bottom:2px solid #d4e8e0;margin-bottom:36px}
+header .day{display:inline-block;background:#0d6e6e;color:#fff;font-size:0.78rem;font-weight:700;padding:4px 12px;border-radius:12px;letter-spacing:2px;margin-bottom:14px}
+header h1{font-size:1.85rem;font-weight:800;color:#0d6e6e;letter-spacing:1px;line-height:1.4}
+header .meta{margin-top:10px;font-size:0.92rem;color:#5a7d7d}
+header .evidence-note{margin-top:14px;display:inline-block;font-size:0.82rem;color:#3aa17e;background:#e6f3ed;padding:6px 14px;border-radius:8px;border-left:3px solid #3aa17e}
+.card{background:#fff;border-radius:14px;padding:28px 26px;margin-bottom:24px;box-shadow:0 2px 14px rgba(13,110,110,0.08);border-top:4px solid #3aa17e}
+.card .name{font-size:1.25rem;font-weight:700;color:#0d6e6e;margin-bottom:4px}
+.card .name-en{font-size:0.88rem;color:#5a7d7d;font-style:italic;margin-bottom:10px}
+.card .tag{display:inline-block;font-size:0.72rem;background:#e6f3ed;color:#0d6e6e;padding:3px 10px;border-radius:6px;font-weight:600;margin-bottom:16px;letter-spacing:0.5px}
+.section{margin-top:14px}
+.section .label{font-size:0.8rem;font-weight:700;color:#0d6e6e;letter-spacing:1px;margin-bottom:6px;display:flex;align-items:center;gap:6px}
+.section .label::before{content:"";display:inline-block;width:3px;height:14px;background:#3aa17e;border-radius:2px}
+.section .content{font-size:0.94rem;color:#2d4d4d;padding-left:9px}
+.conclusion{background:#fff8e6;border-left:4px solid #d4a017;padding:12px 14px;border-radius:6px;font-weight:600;color:#7a5c00}
+.evidence{background:#e8f0fa;border-left:4px solid #4a7ab8;padding:10px 14px;border-radius:6px;font-size:0.88rem;color:#2d4970}
+.protocol{background:#e6f3ed;padding:12px 14px;border-radius:6px;border-left:4px solid #3aa17e}
+.female{background:#fae6ee;padding:10px 14px;border-radius:6px;border-left:4px solid #c2438a;font-size:0.92rem}
+.myth{background:#fae8e6;padding:10px 14px;border-radius:6px;border-left:4px solid #c25543;font-size:0.92rem}
+.ref{font-size:0.85rem;color:#5a7d7d;font-style:italic}
+.en-summary{font-size:0.86rem;color:#5a7d7d;background:#f5faf8;padding:10px 14px;border-radius:6px;border-left:3px solid #a0bdbd}
+.tryit{background:#0d6e6e;color:#fff;padding:14px 16px;border-radius:8px;font-size:0.94rem;font-weight:500}
+.tryit .label{color:#a8e0d0;font-size:0.78rem;letter-spacing:2px;margin-bottom:4px;font-weight:700}
+table{width:100%;border-collapse:collapse;margin-top:8px;font-size:0.88rem}
+table th{background:#0d6e6e;color:#fff;padding:8px;text-align:left;font-weight:600}
+table td{padding:8px;border-bottom:1px solid #e0eae5}
+table tr:nth-child(even) td{background:#f5faf8}
+.nav{text-align:center;margin-top:40px;padding-top:24px;border-top:1px solid #d4e8e0}
+.nav a{color:#0d6e6e;text-decoration:none;font-weight:600;padding:10px 24px;background:#fff;border-radius:8px;border:1px solid #d4e8e0;display:inline-block;transition:all 0.2s}
+.nav a:hover{background:#0d6e6e;color:#fff}
+.hypnogram{background:#fafdfb;border:1px solid #d4e8e0;border-radius:8px;padding:14px 10px;margin-top:8px}
+.hypnogram svg{width:100%;height:auto;display:block}
+.circadian{background:#fafdfb;border:1px solid #d4e8e0;border-radius:8px;padding:14px;margin-top:8px;font-size:0.86rem}
+.circadian table th{background:#3aa17e}
+@media(max-width:600px){header h1{font-size:1.4rem}.card{padding:20px 18px}.card .name{font-size:1.08rem}}
+</style></head><body><div class="container">
+
+<header>
+<div class="day">DAY 3</div>
+<h1>健康长寿：睡眠科学<br><span style="font-size:1rem;color:#5a7d7d;font-weight:500">Sleep Science Protocol</span></h1>
+<div class="meta">2026-05-23 · BigCat's Vitality Protocol</div>
+<div class="evidence-note">本期证据等级：以多导睡眠监测 (PSG) RCT、大型队列与机制研究为主；Walker、Attia、AASM 临床指南综合</div>
+</header>
+
+<div class="card">
+<div class="tag">SUB · 睡眠结构 / REM &amp; SWS</div>
+<div class="name">睡眠周期与 REM/深睡分布</div>
+<div class="name-en">Sleep Architecture — REM &amp; Slow Wave Sleep</div>
+
+<div class="section"><div class="label">一句话结论</div>
+<div class="content"><div class="conclusion">睡够「时长」不等于「修复」— 真正的核心指标是 4-5 个完整 90 分钟周期，且前半夜深睡 (SWS) 与后半夜 REM 都不能被截短。</div></div></div>
+
+<div class="section"><div class="label">证据等级</div>
+<div class="content"><div class="evidence">机制研究（脑脊液淋巴清除 — Xie 2013 Science）+ 大型队列（睡眠 &lt;6 h 全因死亡 HR 1.12, Itani 2017 Meta）+ 多导睡眠监测 RCT。结构性指标确定性高于「总时长」单一指标。</div></div></div>
+
+<div class="section"><div class="label">科学背景</div>
+<div class="content">一夜由 4-6 个 90-110 分钟周期组成，每个周期含 N1→N2→N3 (慢波/深睡) →REM。深睡集中在前 1/3 夜（驱动生长激素、糖原修复、记忆固化、脑脊液清除 β-淀粉样蛋白）；REM 集中在后 1/3 夜（情绪整合、程序性记忆、创造性联想）。凌晨 5 点起床切掉的不是「闲觉」，而是 REM 高峰。
+<div class="hypnogram"><svg viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg">
+<text x="6" y="22" font-size="11" fill="#0d6e6e" font-weight="700">睡眠阶段示意 (8 小时, 5 个周期)</text>
+<line x1="50" y1="60" x2="580" y2="60" stroke="#d4e8e0" stroke-width="1"/>
+<line x1="50" y1="90" x2="580" y2="90" stroke="#d4e8e0" stroke-width="1"/>
+<line x1="50" y1="120" x2="580" y2="120" stroke="#d4e8e0" stroke-width="1"/>
+<line x1="50" y1="150" x2="580" y2="150" stroke="#d4e8e0" stroke-width="1"/>
+<text x="6" y="63" font-size="10" fill="#5a7d7d">清醒</text>
+<text x="6" y="93" font-size="10" fill="#c2438a">REM</text>
+<text x="6" y="123" font-size="10" fill="#5a7d7d">浅睡 N1/2</text>
+<text x="6" y="153" font-size="10" fill="#0d6e6e">深睡 N3</text>
+<polyline points="50,60 70,60 80,120 100,150 130,150 140,120 160,90 180,90 195,120 215,150 230,150 245,120 265,90 285,90 300,120 320,150 335,150 350,120 370,90 395,90 410,120 425,140 445,140 460,120 480,90 510,90 525,120 540,130 560,120 580,90" stroke="#3aa17e" stroke-width="2" fill="none" stroke-linejoin="round"/>
+<text x="100" y="172" font-size="9" fill="#5a7d7d">23:00</text>
+<text x="220" y="172" font-size="9" fill="#5a7d7d">01:00</text>
+<text x="340" y="172" font-size="9" fill="#5a7d7d">03:00</text>
+<text x="460" y="172" font-size="9" fill="#5a7d7d">05:00</text>
+<text x="555" y="172" font-size="9" fill="#5a7d7d">07:00</text>
+<text x="120" y="40" font-size="9" fill="#0d6e6e" font-weight="600">← 深睡占优</text>
+<text x="430" y="40" font-size="9" fill="#c2438a" font-weight="600">REM 占优 →</text>
+</svg></div></div></div>
+
+<div class="section"><div class="label">可执行协议</div>
+<div class="content"><div class="protocol">
+• <b>目标</b>：7-9 小时床上时间，对应睡眠效率 &gt;85% → 实际睡眠 ≥7 h<br>
+• <b>固定起床时间</b>：±30 分钟内（比固定就寝时间更关键，锚定生物钟）<br>
+• <b>评估指标</b>：使用 Oura / Apple Watch / Whoop 监测「深睡 ≥60 min、REM ≥90 min、HRV 个人基线」<br>
+• <b>红灯信号</b>：连续 ≥3 晚深睡 &lt;30 min 或 REM &lt;60 min，检查酒精、晚餐时间、室温
+</div></div></div>
+
+<div class="section"><div class="label">女性特别提示</div>
+<div class="content"><div class="female">月经周期黄体期 (排卵后 14 天) 孕酮升高 → 核心体温升高 → 深睡比例下降 5-10%，主观「睡得没那么沉」是真实的。围绝经期雌激素波动会让 REM 碎片化、半夜 3-4 点觉醒，是临床上区别一般失眠的关键线索。</div></div></div>
+
+<div class="section"><div class="label">常见误区</div>
+<div class="content"><div class="myth">误区 1：「我只需要 5 小时」— 自我评估准确率极低；客观测试显示长期 &lt;6 h 者认知表现等同酒驾。<br>误区 2：周末补觉能还清债务 — 一夜睡 10 h 只能恢复约 40% 的执行功能损失。</div></div></div>
+
+<div class="section"><div class="label">关键参考</div>
+<div class="content"><div class="ref">• Matthew Walker, <i>Why We Sleep</i> (2017), Ch. 3-4<br>• Xie L, et al. Science. 2013;342(6156):373-7 (glymphatic clearance)</div></div></div>
+
+<div class="section"><div class="label">English Summary</div>
+<div class="content"><div class="en-summary">Sleep is built from 4-5 cycles of 90-110 min, with deep sleep concentrated in the first third (memory consolidation, glymphatic clearance) and REM in the last third (emotional integration). Total hours alone is a lossy metric — track architecture. A fixed wake time anchors the system better than a fixed bedtime.</div></div></div>
+
+<div class="section"><div class="label">本周一试</div>
+<div class="content"><div class="tryit"><div class="label">THIS WEEK</div>本周固定起床时间 ±15 分钟（包括周末），用现有手表/手环记录 7 晚的深睡与 REM 分布。第 7 天比较你最差与最好那晚的差异变量：晚餐时间？酒精？室温？</div></div></div>
+</div>
+
+<div class="card">
+<div class="tag">SUB · 睡眠债务 / 认知代价</div>
+<div class="name">睡眠债务与认知负债</div>
+<div class="name-en">Sleep Debt — The Compounding Cognitive Tax</div>
+
+<div class="section"><div class="label">一句话结论</div>
+<div class="content"><div class="conclusion">连续 6 晚睡 6 小时，反应时间损失等同于一晚不睡；你自己几乎无法察觉。</div></div></div>
+
+<div class="section"><div class="label">证据等级</div>
+<div class="content"><div class="evidence">高确定性 RCT：Van Dongen 2003 (Sleep, 经典随机对照) — 14 天 4h/6h/8h 三组对照，6h 组 PVT 反应时间在 14 天后等同于 24 h 连续不眠，但自评困倦感与基线相同。</div></div></div>
+
+<div class="section"><div class="label">科学背景</div>
+<div class="content">睡眠债务 = 个体最佳睡眠时长 − 实际睡眠时长，按夜累积。主要代价：(1) 注意力涣散事故率上升 — 每周 &lt;6h 睡眠驾驶事故率为 7-8h 组的 1.7 倍 (AAA Foundation 2016)；(2) 胰岛素敏感性下降 — 单晚 4h 即可使次日葡萄糖处置下降 25% (Spiegel 1999, Lancet)；(3) 杏仁核活动 +60%，前额叶调控下降，情绪失控 (Yoo 2007, Curr Biol)；(4) 自然杀伤细胞活性 −70% (Irwin 1996)。</div></div>
+
+<div class="section"><div class="label">可执行协议</div>
+<div class="content"><div class="protocol">
+• <b>识别债务</b>：连续 7 天记录入睡/醒来时间。如周末自然多睡 &gt;1.5 h → 你处于慢性负债<br>
+• <b>偿还速度</b>：每晚多睡 30-60 分钟，连续 7-10 天 = 偿还约 1 周积累的债务<br>
+• <b>不要靠咖啡因「假装偿还」</b>：咖啡因仅遮盖警觉性下降，不修复 SWS/REM<br>
+• <b>短午睡协议</b>：10-20 分钟 (避免进入深睡, 防止睡眠惯性)；若超过 30 分钟，则需 90 分钟完整周期
+</div></div></div>
+
+<div class="section"><div class="label">女性特别提示</div>
+<div class="content"><div class="female">产后 0-12 个月、哺乳期妈妈结构性短睡是不可避免的。重点不在「修复完整周期」，而在保障 90 分钟无打断窗口 + 找他人接管 1-2 次夜醒；这比追求 7 小时总时长更有效。Mary Claire Haver 提示，长期托管「我是妈妈不需要睡眠」的叙事直接关联抑郁与代谢失调。</div></div></div>
+
+<div class="section"><div class="label">常见误区</div>
+<div class="content"><div class="myth">误区 1：「我适应了短睡」— 主观适应 ≠ 生理适应；客观测试表现持续下滑。<br>误区 2：用 Modafinil/咖啡因长期对抗债务 — 短期可行，长期会累积心血管与焦虑代价。</div></div></div>
+
+<div class="section"><div class="label">关键参考</div>
+<div class="content"><div class="ref">• Van Dongen HPA, et al. Sleep. 2003;26(2):117-26.<br>• Peter Attia podcast #126 with Matthew Walker</div></div></div>
+
+<div class="section"><div class="label">English Summary</div>
+<div class="content"><div class="en-summary">Six nights of 6h sleep degrades reaction time to the level of one full sleepless night — without subjective awareness. Repay debt by adding 30-60 min nightly for 1-2 weeks; caffeine masks but does not restore SWS/REM. Naps work at 10-20 min or 90 min, not in between.</div></div></div>
+
+<div class="section"><div class="label">本周一试</div>
+<div class="content"><div class="tryit"><div class="label">THIS WEEK</div>本周做一次「睡眠还债周」：每晚比平日早睡 45 分钟，连续 7 天。在 Day 1 与 Day 7 各做一次手机 PVT (反应时间测试 app) — 看自己反应时间是否缩短 50-100 ms。</div></div></div>
+</div>
+
+<div class="card">
+<div class="tag">SUB · 昼夜节律 / 光-温-食</div>
+<div class="name">昼夜节律：光、温度、进食三杠杆</div>
+<div class="name-en">Circadian Rhythm — Light, Temperature &amp; Meal Timing</div>
+
+<div class="section"><div class="label">一句话结论</div>
+<div class="content"><div class="conclusion">最强可控的睡眠杠杆不是床垫，是清晨 10 分钟自然光、夜间 18-20°C 卧室、与睡前 3 小时停止进食。</div></div></div>
+
+<div class="section"><div class="label">证据等级</div>
+<div class="content"><div class="evidence">机制研究（视交叉上核 SCN, Hattar/Berson 2002 视黑素细胞）+ RCT（Wright 2013 露营研究：3 天自然光让褪黑素峰提前 2 h）+ TRE 试验（Sutton 2018, Cell Metab）。多杠杆共识等级高。</div></div></div>
+
+<div class="section"><div class="label">科学背景</div>
+<div class="content">下丘脑 SCN 是主时钟，但每个器官（肝、肌肉、肠）有自己的周边时钟。三大「授时因子」：(1) <b>光</b> — 晨光蓝光抑制褪黑素、推早周期；夜间室内光 (&gt;100 lux) 延后周期 30-90 分钟。(2) <b>温度</b> — 核心体温每晚下降 0.5-1°C 是入睡信号，卧室 18-20°C 最优；睡前热水澡 90 分钟前促进散热入睡。(3) <b>进食时间</b> — 晚餐时间是肝脏与代谢时钟的强信号，TRE (10-12 h 进食窗) 改善胰岛素敏感性。
+<div class="circadian"><table>
+<tr><th>时间</th><th>授时因子</th><th>动作</th></tr>
+<tr><td>醒后 30 min</td><td>光</td><td>户外 10 min 自然光（阴天也有效，5000+ lux）</td></tr>
+<tr><td>午后</td><td>咖啡因截止</td><td>最后一杯咖啡距离就寝 ≥ 8 小时</td></tr>
+<tr><td>就寝前 3 h</td><td>进食</td><td>关闭进食窗口，给肝时钟「夜班」信号</td></tr>
+<tr><td>就寝前 90 min</td><td>温度</td><td>40°C 热水澡 10-15 min（促进散热）</td></tr>
+<tr><td>就寝前 1 h</td><td>光</td><td>主光源切换至&lt; 50 lux 暖光；屏幕亮度调到最低</td></tr>
+<tr><td>入睡时</td><td>温度</td><td>卧室 18-20°C, 透气被</td></tr>
+</table></div></div></div>
+
+<div class="section"><div class="label">可执行协议</div>
+<div class="content"><div class="protocol">
+• <b>晨光</b>：起床 30-60 min 内户外 5-10 min；冬季可用 10,000 lux 光疗灯<br>
+• <b>夜光</b>：晚 9 点后家庭光照 &lt;50 lux；屏幕开夜览模式（影响小于环境光）<br>
+• <b>温度</b>：卧室 18-20°C；床品散热（亚麻/竹纤维 &gt; 涤纶）<br>
+• <b>进食</b>：建立 10-12 h 进食窗（如 8:00-19:00），睡前 3 h 停食<br>
+• <b>咖啡因</b>：半衰期 5-6 h，下午 2 点后不再摄入
+</div></div></div>
+
+<div class="section"><div class="label">女性特别提示</div>
+<div class="content"><div class="female">围绝经期热潮 (hot flash) 与核心体温调节失调直接相关，睡眠会被夜间出汗反复打断。临床证据 (Joffe 2020) 显示降温床垫 + MHT (激素疗法) 可显著改善 — Stacy Sims 建议先尝试卧室 16-18°C + 散热床品，再考虑药物。</div></div></div>
+
+<div class="section"><div class="label">常见误区</div>
+<div class="content"><div class="myth">误区 1：迷信防蓝光眼镜 — 效应弱于直接调暗环境光或更换暖色光源。<br>误区 2：睡前喝酒助眠 — 酒精确实缩短入睡时间，但抑制 REM、增加后半夜觉醒，整体睡眠质量更差。</div></div></div>
+
+<div class="section"><div class="label">关键参考</div>
+<div class="content"><div class="ref">• Wright KP, et al. Curr Biol. 2013;23(16):1554-8.<br>• Andrew Huberman, Huberman Lab Podcast Ep. 2 "Master Your Sleep"</div></div></div>
+
+<div class="section"><div class="label">English Summary</div>
+<div class="content"><div class="en-summary">Three highest-leverage circadian inputs: 10 min of outdoor morning light, an 18-20°C bedroom, and a 3-hour pre-sleep eating cutoff. Blue-light glasses are weaker than dimming the room. Alcohol shortens sleep latency but suppresses REM — net loss.</div></div></div>
+
+<div class="section"><div class="label">本周一试</div>
+<div class="content"><div class="tryit"><div class="label">THIS WEEK</div>本周连续 5 天：起床后 10 分钟出门看天光（不戴墨镜）；晚餐定在睡前 3 小时前；卧室温度调到 19°C。在睡眠手表上比较本周 vs 上周的深睡均值。</div></div></div>
+</div>
+
+<div class="card">
+<div class="tag">SUB · OSA / 呼吸暂停筛查</div>
+<div class="name">睡眠呼吸暂停 (OSA) 筛查</div>
+<div class="name-en">Obstructive Sleep Apnea — The Silent Longevity Killer</div>
+
+<div class="section"><div class="label">一句话结论</div>
+<div class="content"><div class="conclusion">如果你打鼾 + 白天嗜睡 + 早晨头痛 + BMI &gt;25，做一次居家睡眠监测 (HSAT)。OSA 是被严重漏诊的、可逆的心血管与认知风险。</div></div></div>
+
+<div class="section"><div class="label">证据等级</div>
+<div class="content"><div class="evidence">高确定性：中重度 OSA 全因死亡 HR 3.0 (Young 2008, Sleep, Wisconsin 队列 18 年)；CPAP 治疗显著降低心血管事件与全因死亡 (Yu 2017 JAMA Meta)。AASM 临床指南推荐有症状者一线筛查。</div></div></div>
+
+<div class="section"><div class="label">科学背景</div>
+<div class="content">OSA = 睡眠中上气道反复塌陷，每次 ≥10 秒、伴血氧下降。AHI (呼吸暂停低通气指数, 次/小时)：&lt;5 正常, 5-15 轻度, 15-30 中度, &gt;30 重度。机制后果：反复缺氧 → 交感激活 → 高血压、房颤、胰岛素抵抗、认知下降。全球估计成人 OSA 患病率 30-40%，但 80%+ 未确诊。女性绝经后患病率快速追上男性 — 雌激素的呼吸驱动支持消失。</div></div></div>
+
+<div class="section"><div class="label">可执行协议</div>
+<div class="content"><div class="protocol">
+• <b>自评 STOP-BANG（任 3 项阳性 = 高风险）</b>：打鼾响 / 白天嗜睡 / 目击呼吸暂停 / 高血压 / BMI&gt;35 / 年龄&gt;50 / 颈围&gt;40cm / 男性<br>
+• <b>客观工具</b>：Apple Watch S9+/Oura 提供「呼吸紊乱」筛查，灵敏度 70-80% — 仅作提示，确诊仍需 HSAT/PSG<br>
+• <b>居家睡眠监测 (HSAT)</b>：中国一线城市 600-1500 元，2-3 晚记录 AHI<br>
+• <b>一线治疗</b>：减重 5-10% / 侧卧 / 戒酒戒安眠药；中重度首选 CPAP；下颌前移装置；严重者颌面手术<br>
+• <b>新选项</b>：GLP-1 (Tirzepatide) 显著降低肥胖患者 AHI (SURMOUNT-OSA 2024, NEJM)
+</div></div></div>
+
+<div class="section"><div class="label">女性特别提示</div>
+<div class="content"><div class="female">女性 OSA 症状更不典型：不一定打鼾响，常表现为<b>失眠、晨起头痛、白天疲劳、抑郁焦虑</b>，因此漏诊率更高。围绝经期与绝经后女性 OSA 患病率从 ~10% 升至 ~20%，是雌激素对上气道肌肉张力支持丧失所致。任何持续性、抗治疗的「中年女性失眠」都应排除 OSA。</div></div></div>
+
+<div class="section"><div class="label">常见误区</div>
+<div class="content"><div class="myth">误区 1：「我不胖，不会有 OSA」— 颌面结构 (下颌后缩、舌体大) 也是主因；亚洲人群非肥胖型 OSA 比例显著高于白人。<br>误区 2：用安眠药「治打鼾」— 苯二氮卓类与酒精同样松弛上气道肌肉，反而恶化 AHI。</div></div></div>
+
+<div class="section"><div class="label">关键参考</div>
+<div class="content"><div class="ref">• Young T, et al. Sleep. 2008;31(8):1071-8.<br>• Malhotra A, et al. NEJM. 2024;391:1193-1205 (Tirzepatide for OSA)</div></div></div>
+
+<div class="section"><div class="label">English Summary</div>
+<div class="content"><div class="en-summary">Obstructive sleep apnea is grossly underdiagnosed and a major reversible cardiovascular/cognitive risk. Screen anyone with snoring, daytime sleepiness, morning headache, or BMI&gt;25 using STOP-BANG, then confirm with home sleep testing. Women often present atypically — insomnia and fatigue, not loud snoring.</div></div></div>
+
+<div class="section"><div class="label">本周一试</div>
+<div class="content"><div class="tryit"><div class="label">THIS WEEK</div>本周完成 STOP-BANG 自评（3 分钟）。若 ≥3 项阳性，预约居家睡眠监测；或开启 Apple Watch/Oura 的呼吸监测，连续 7 晚记录基线。把结果列入年度体检关注项。</div></div></div>
+</div>
+
+<div class="nav"><a href="index.html">← 返回首页</a></div>
+
+</div><script src="https://cissy0802.github.io/comments.js" defer></script>
+<script src="https://cissy0802.github.io/search.js" defer></script>
+<script src="https://cissy0802.github.io/index-button.js" defer></script>
+</body></html>
