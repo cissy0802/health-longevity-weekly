@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Health & Longevity Day 9 — Supplement Science</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,"SF Pro Display","Noto Sans SC",sans-serif;background:#f0f7f4;color:#1f3a3d;line-height:1.75}
+.container{max-width:820px;margin:0 auto;padding:24px 20px 60px}
+header{text-align:center;padding:48px 0 28px;border-bottom:2px solid #d4e8e0;margin-bottom:36px}
+header .day{display:inline-block;background:#0d6e6e;color:#fff;font-size:0.78rem;font-weight:700;padding:4px 12px;border-radius:12px;letter-spacing:2px;margin-bottom:14px}
+header h1{font-size:1.85rem;font-weight:800;color:#0d6e6e;letter-spacing:1px;line-height:1.4}
+header .meta{margin-top:10px;font-size:0.92rem;color:#5a7d7d}
+header .evidence-note{margin-top:14px;display:inline-block;font-size:0.82rem;color:#3aa17e;background:#e6f3ed;padding:6px 14px;border-radius:8px;border-left:3px solid #3aa17e}
+.card{background:#fff;border-radius:14px;padding:28px 26px;margin-bottom:24px;box-shadow:0 2px 14px rgba(13,110,110,0.08);border-top:4px solid #3aa17e}
+.card .name{font-size:1.25rem;font-weight:700;color:#0d6e6e;margin-bottom:4px}
+.card .name-en{font-size:0.88rem;color:#5a7d7d;font-style:italic;margin-bottom:10px}
+.card .tag{display:inline-block;font-size:0.72rem;background:#e6f3ed;color:#0d6e6e;padding:3px 10px;border-radius:6px;font-weight:600;margin-bottom:16px;letter-spacing:0.5px}
+.section{margin-top:14px}
+.section .label{font-size:0.8rem;font-weight:700;color:#0d6e6e;letter-spacing:1px;margin-bottom:6px;display:flex;align-items:center;gap:6px}
+.section .label::before{content:"";display:inline-block;width:3px;height:14px;background:#3aa17e;border-radius:2px}
+.section .content{font-size:0.94rem;color:#2d4d4d;padding-left:9px}
+.conclusion{background:#fff8e6;border-left:4px solid #d4a017;padding:12px 14px;border-radius:6px;font-weight:600;color:#7a5c00}
+.evidence{background:#e8f0fa;border-left:4px solid #4a7ab8;padding:10px 14px;border-radius:6px;font-size:0.88rem;color:#2d4970}
+.protocol{background:#e6f3ed;padding:12px 14px;border-radius:6px;border-left:4px solid #3aa17e}
+.female{background:#fae6ee;padding:10px 14px;border-radius:6px;border-left:4px solid #c2438a;font-size:0.92rem}
+.myth{background:#fae8e6;padding:10px 14px;border-radius:6px;border-left:4px solid #c25543;font-size:0.92rem}
+.tryit{background:#0d6e6e;color:#fff;padding:14px 16px;border-radius:8px;font-size:0.94rem;font-weight:500}
+.tryit .label{color:#a8e0d0;font-size:0.78rem;letter-spacing:2px;margin-bottom:4px;font-weight:700}
+.viz{background:#f5faf8;border-radius:10px;padding:14px;margin-top:10px;overflow-x:auto}
+.viz-caption{font-size:0.78rem;color:#5a7d7d;text-align:center;margin-top:8px;font-style:italic}
+table{width:100%;border-collapse:collapse;margin-top:8px;font-size:0.88rem}
+table th{background:#0d6e6e;color:#fff;padding:8px;text-align:left;font-weight:600}
+table td{padding:8px;border-bottom:1px solid #e0eae5}
+table tr:nth-child(even) td{background:#f5faf8}
+.footer-section{background:#fff;border-radius:14px;padding:26px 24px;margin-bottom:20px;box-shadow:0 2px 14px rgba(13,110,110,0.08);border-left:4px solid #0d6e6e}
+.footer-section h2{font-size:1.1rem;color:#0d6e6e;margin-bottom:14px;letter-spacing:1px}
+.footer-section ul{list-style:none;padding-left:0}
+.footer-section li{padding:7px 0;font-size:0.9rem;border-bottom:1px dashed #e0eae5;color:#2d4d4d}
+.footer-section li:last-child{border-bottom:none}
+details{background:#f5faf8;border-radius:8px;padding:12px 14px;margin-bottom:10px;border-left:3px solid #3aa17e}
+details summary{cursor:pointer;font-weight:600;color:#0d6e6e;font-size:0.95rem;outline:none}
+details[open] summary{margin-bottom:10px}
+details div{font-size:0.9rem;color:#2d4d4d;padding-left:6px;line-height:1.7}
+.nav{text-align:center;margin-top:40px;padding-top:24px;border-top:1px solid #d4e8e0}
+.nav a{color:#0d6e6e;text-decoration:none;font-weight:600;padding:10px 24px;background:#fff;border-radius:8px;border:1px solid #d4e8e0;display:inline-block;transition:all 0.2s}
+.nav a:hover{background:#0d6e6e;color:#fff}
+@media(max-width:600px){header h1{font-size:1.4rem}.card{padding:20px 18px}.card .name{font-size:1.08rem}}
+</style></head><body><div class="container">
+
+<header>
+<div class="day">DAY 9</div>
+<h1>Health &amp; Longevity: Supplement Science<br><span style="font-size:1rem;color:#5a7d7d;font-weight:500">What Works, What's Hype, How to Decide</span></h1>
+<div class="meta">2026-05-31 · BigCat's Vitality Protocol</div>
+<div class="evidence-note">Evidence base: ISSN position stands, Cochrane reviews, large RCTs (VITAL/ASCEND). Three evidence tiers: human hard endpoints, mechanism, animal models.</div>
+</header>
+
+<div class="card">
+<div class="tag">SUB · Evidence tiers / decision framework</div>
+<div class="name">The Supplement Pyramid: Food First, Then Test, Then Supplement</div>
+<div class="name-en">Food → Test → Supplement</div>
+
+<div class="section"><div class="label">One-line takeaway</div>
+<div class="content"><div class="conclusion">A supplement's value scales with <strong>how deficient you are</strong>. Big gains in the deficient zone, near-zero in the sufficient zone, <strong>net harm in the excess zone</strong>. Test, then dose by deficit — don't shop by podcast.</div></div></div>
+
+<div class="section"><div class="label">Evidence level</div>
+<div class="content"><div class="evidence">RCT: VITAL (Manson 2019, <i>NEJM</i>, n=25,871, 5.3-yr follow-up) found that routine vitamin D (2000 IU/d) and Omega-3 (1 g/d) <strong>did not</strong> reduce the composite cancer/CV endpoint — but <strong>prespecified subgroups</strong> with baseline 25(OH)D &lt;20 ng/mL and low fish intake did benefit. Lesson: "no effect on average" ≠ "no effect on you." Stratification is everything.</div></div></div>
+
+<div class="section"><div class="label">Visualization: dose-response curve</div>
+<div class="content">
+<div class="viz">
+<svg viewBox="0 0 720 220" width="100%" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" style="font-family:-apple-system,'Noto Sans SC',sans-serif">
+<defs><style>.t{font-size:12px;font-weight:700;fill:#0d6e6e}.p{font-size:11px;fill:#5a7d7d}.b{font-size:11px;font-weight:700;fill:#fff}</style></defs>
+<text x="10" y="16" class="t">Supplement dose-benefit curve (typical U-shape)</text>
+<line x1="55" y1="180" x2="685" y2="180" stroke="#0d6e6e" stroke-width="1.5"/>
+<line x1="55" y1="40" x2="55" y2="180" stroke="#0d6e6e" stroke-width="1.5"/>
+<path d="M55,170 Q145,60 270,55 L450,55 Q560,80 685,160" fill="none" stroke="#3aa17e" stroke-width="3"/>
+<rect x="55" y="40" width="120" height="140" fill="#fae8e6" opacity="0.5"/>
+<rect x="175" y="40" width="285" height="140" fill="#e6f3ed" opacity="0.6"/>
+<rect x="460" y="40" width="225" height="140" fill="#fff8e6" opacity="0.6"/>
+<text x="115" y="200" text-anchor="middle" class="p">Deficient</text>
+<text x="317" y="200" text-anchor="middle" class="p">Sufficient (optimal window)</text>
+<text x="572" y="200" text-anchor="middle" class="p">Excess</text>
+<text x="115" y="218" text-anchor="middle" class="p">Big gain</text>
+<text x="317" y="218" text-anchor="middle" class="p">≈ 0</text>
+<text x="572" y="218" text-anchor="middle" class="p">Net harm</text>
+<text x="60" y="55" class="p">Benefit ↑</text>
+<text x="630" y="55" class="p">Toxicity ↑</text>
+</svg>
+<div class="viz-caption">Fat-soluble vitamins (A, D, E), iron, selenium, zinc all show a U-shaped dose-response. "More is better" is a linear-thinking mistake.</div>
+</div></div></div>
+
+<div class="section"><div class="label">Actionable protocol</div>
+<div class="content"><div class="protocol">
+<b>Three-tier decision</b>:<br>
+① <b>Food tier</b>: 1.6–2.2 g/kg protein, 30 g fiber, 2 servings fatty fish/week — most "deficiencies" are actually diet gaps.<br>
+② <b>Test tier</b>: annual 25(OH)D, ferritin, B12, Omega-3 Index, magnesium (RBC Mg &gt; serum), HbA1c — target above the "normal" floor.<br>
+③ <b>Supplement tier</b>: only for measured deficits or hard-endpoint evidence. For each addition ask: hard-endpoint RCT? Am I deficient? Is the ROI worth it?
+</div></div></div>
+
+<div class="section"><div class="label">Women's note + common myths</div>
+<div class="content"><div class="female">Premenopausal women have high iron-deficiency rates (menstrual loss). Pre-conception and pregnancy folate 400–800 μg/d is one of the few RCT-backed "musts" (neural tube defect prevention). Do <strong>not</strong> blindly supplement iron in perimenopause — postmenopausal iron needs drop sharply, and excess iron is linked to CV and neurodegenerative risk (Mascitelli 2014).</div>
+<div class="myth" style="margin-top:8px">Myth 1: "Natural = safe" — herbal–heavy metal and hepatotoxicity events appear in USP MedWatch every year.<br>Myth 2: "Stack more, win more" — fat-soluble vitamins and trace minerals antagonize each other (calcium blocks iron, excess zinc depletes copper).<br>Myth 3: "US/Japan brands are purer" — FDA does <strong>not</strong> pre-approve supplements. Look for USP / NSF / Informed Sport third-party certification.</div></div></div>
+
+<div class="section"><div class="label">This week + reflection</div>
+<div class="content"><div class="tryit"><div class="label">THIS WEEK</div>Lay out every supplement bottle in your home and photograph it. For each ask: do I have <strong>personalized evidence</strong> for this (a deficiency test or a hard-endpoint RCT)? Retire the ones you bought on a hunch.<br><br>Reflection: if the supplement industry had to pass Phase III RCTs like drugs, how many bottles would still be on the shelf?</div></div></div>
+</div>
+
+<div class="card">
+<div class="tag">SUB · Well-evidenced / muscle & cognition</div>
+<div class="name">Creatine: 5 g/day, the Most Under-Used Evidence-Backed Supplement</div>
+<div class="name-en">Creatine Monohydrate</div>
+
+<div class="section"><div class="label">One-line takeaway</div>
+<div class="content"><div class="conclusion"><strong>Creatine monohydrate</strong> has the strongest evidence base of any sports supplement after protein: 3–5 g/day, +5–10% strength, +1–2 kg lean mass, and a growing dataset on <strong>cognition and mood</strong>. 30-year clean safety record.</div></div></div>
+
+<div class="section"><div class="label">Evidence level</div>
+<div class="content"><div class="evidence">Meta: Kreider 2017 (ISSN position) synthesizing 500+ studies — creatine has the <strong>largest, most reproducible</strong> effect size on high-intensity performance. Lanhers 2017 (<i>Sports Med</i> meta): creatine + resistance &gt; resistance alone (+1.4 kg lean mass). Cognition: Forbes 2023 (<i>Eur J Nutr</i> systematic review): 5–20 g/d improves memory, especially in <strong>vegetarians, older adults, sleep-deprived states</strong>. Mood: Smith-Ryan 2021 review — 5 g/d as SSRI adjunct accelerates remission.</div></div></div>
+
+<div class="section"><div class="label">Actionable protocol</div>
+<div class="content">
+<table>
+<tr><th>Goal</th><th>Dose</th><th>Timing / form</th></tr>
+<tr><td>Strength training</td><td>3–5 g/day</td><td>Anytime; ideally with a meal + carbs</td></tr>
+<tr><td>Cognition / aging</td><td>5 g/day</td><td>Daily; saturation 2–4 weeks</td></tr>
+<tr><td>Vegetarian</td><td>5 g/day</td><td>Low baseline → largest gain</td></tr>
+<tr><td>Not recommended</td><td>"20 g loading phase"</td><td>GI upset, no extra benefit</td></tr>
+</table>
+<div class="protocol" style="margin-top:10px"><b>Form</b>: "Creatine Monohydrate" only (skip HCl / ethyl ester / buffered — no advantage, higher cost). Creapure is the German reference raw material. <b>Water</b>: +500 ml/day. <b>Contraindication</b>: known severe kidney disease. In healthy adults, 5 g/d long-term safety is well established (Kreider 2017).</div></div></div>
+
+<div class="section"><div class="label">Women's note + common myths</div>
+<div class="content"><div class="female">Women's baseline creatine stores are 70–80% lower than men's, so the <strong>response is larger</strong>. Stacy Sims recommends 5 g/d for perimenopausal women — muscle, cognition, mood, all three. Energy metabolism tightens in the luteal phase; creatine helps maintain training performance. Pregnancy: small studies show no harm signal but no large RCT — default to avoiding.</div>
+<div class="myth" style="margin-top:8px">Myth 1: "Creatine is a hormone" — it's an amino-acid derivative; no hormonal action.<br>Myth 2: "Stop creatine and the muscle drops" — only a slight water shift (&lt;1 kg). Lean tissue is retained.<br>Myth 3: "Bad for kidneys" — multiple RCTs in healthy kidneys disprove this; creatine raises serum creatinine (the marker) but not creatinine clearance. Tell your doctor if a kidney panel is ordered.</div></div></div>
+
+<div class="section"><div class="label">This week + reflection</div>
+<div class="content"><div class="tryit"><div class="label">THIS WEEK</div>Buy a tub of Creapure monohydrate (~$15 for 100 g, ~20 days). Take 5 g every morning in warm water or coffee. After 28 days, retest your 5RM squat / deadlift against baseline.<br><br>Reflection: why does a supplement with 30 years of safety data and a clear effect size still live in public perception as "for gym bros only"?</div></div></div>
+</div>
+
+<div class="card">
+<div class="tag">SUB · Test-first / micronutrients</div>
+<div class="name">Vitamin D + Magnesium: Test, Then Dose — Don't Guess</div>
+<div class="name-en">Vitamin D + Magnesium</div>
+
+<div class="section"><div class="label">One-line takeaway</div>
+<div class="content"><div class="conclusion">Vitamin D and magnesium have the highest real-world deficiency rates. But "everyone takes 2000 IU" is a crude starting point. <strong>Test 25(OH)D and RBC magnesium</strong>, dose to the gap, retest at 3 months.</div></div></div>
+
+<div class="section"><div class="label">Evidence level</div>
+<div class="content"><div class="evidence">Vitamin D: VITAL main result null, but <strong>prespecified subgroups</strong> with low baseline showed cancer-death HR 0.83 and a 22% drop in autoimmune disease incidence (Hahn 2022, <i>BMJ</i>). Fracture RCT (Bischoff-Ferrari 2017): 800 IU/d + calcium cut hip fracture 30%. Magnesium: Veronese 2016 meta — low Mg strongly linked to T2D, hypertension, CV events; RCTs show supplementation improves insulin sensitivity, sleep quality, migraine frequency.</div></div></div>
+
+<div class="section"><div class="label">Actionable protocol</div>
+<div class="content">
+<table>
+<tr><th>Nutrient</th><th>Test</th><th>Target / dose</th></tr>
+<tr><td>Vitamin D</td><td>Serum 25(OH)D, annual</td><td>30–50 ng/mL; typically 1000–2000 IU/d, deficient → 4000 IU/d, retest at 8 weeks</td></tr>
+<tr><td>Vitamin K2</td><td>Not routinely tested</td><td>MK-7 90–180 μg/d; synergy with D to direct calcium to bone (Knapen 2013 RCT)</td></tr>
+<tr><td>Magnesium</td><td>RBC Mg (not serum — far more sensitive)</td><td>200–400 mg elemental/day; <strong>glycinate / threonate / citrate</strong> (avoid oxide — &lt;5% absorption)</td></tr>
+<tr><td>Calcium</td><td>Diet estimate (food diary)</td><td>1000–1200 mg/d, <strong>food first</strong>; supplemental &gt;500 mg/d carries a CV-risk signal</td></tr>
+</table>
+<div class="protocol" style="margin-top:10px"><b>Stack timing</b>: D + K2 at breakfast with fat (fat-soluble); magnesium at bedtime (sleep + avoids absorption competition with Ca/Zn). <b>Avoid</b>: calcium with iron or zinc — mutual antagonism.</div></div></div>
+
+<div class="section"><div class="label">Women's note + common myths</div>
+<div class="content"><div class="female">Low magnesium is linked to PMS and menstrual migraines (glycinate 300 mg at bedtime is a cheap intervention). Perimenopausal bone protection: D + K2 + Mg + heavy lifting is the foundational stack (see Day 8). Pregnancy: D supplementation under physician guidance, target ≥30 ng/mL (ACOG).</div>
+<div class="myth" style="margin-top:8px">Myth 1: "Serum Mg normal = not deficient" — 99% of body Mg is intracellular; serum is insensitive. RBC Mg is the reliable test.<br>Myth 2: "Higher is better" — vitamin D &gt;100 ng/mL raises risk of hypercalcemia and kidney stones; 4000 IU/d is a conservative untested ceiling.<br>Myth 3: "Magnesium oxide works because it makes me poop" — laxation ≠ systemic absorption. Oxide is near-useless for repletion.</div></div></div>
+
+<div class="section"><div class="label">This week + reflection</div>
+<div class="content"><div class="tryit"><div class="label">THIS WEEK</div>Book a 25(OH)D + RBC Mg test (most labs offer it as an add-on, ~$20–40). <strong>Do not</strong> start or change a dose before the results land. Decide after the numbers arrive.<br><br>Reflection: "test first, then dose" sounds obvious — why is it so rare in supplement decisions? Is it that marketing is fast and lab work is slow, or do we prefer the illusion of action over delayed gratification?</div></div></div>
+</div>
+
+<div class="card">
+<div class="tag">SUB · Hype detection / anti-aging</div>
+<div class="name">NMN / NR / Resveratrol: Great Story, Where's the Human Data?</div>
+<div class="name-en">NMN / NR / Resveratrol</div>
+
+<div class="section"><div class="label">One-line takeaway</div>
+<div class="content"><div class="conclusion">NMN, NR, and resveratrol have <strong>seductive mechanisms</strong> (NAD+ pathway, sirtuin activation) and <strong>animal lifespan data</strong> — but <strong>almost no human hard-endpoint RCTs</strong>. They're "science worth tracking," not "mature interventions worth hundreds of dollars a month."</div></div></div>
+
+<div class="section"><div class="label">Evidence level</div>
+<div class="content"><div class="evidence">NR/NMN: human RCTs consistently show <strong>blood NAD+ does rise</strong> (Martens 2018, Yoshino 2021), but <strong>downstream clinical endpoints (performance, insulin sensitivity, aging biomarkers) move little or not at all</strong>. Resveratrol: early Howitz/Sinclair animal data failed to replicate; Pollack 2017 meta — CV markers mixed, no clear hard endpoint. The marketing-to-clinical-reality gap is enormous. Attia (2023 podcast): personally <strong>stopped</strong> resveratrol; on NMN "watchful, not validated."</div></div></div>
+
+<div class="section"><div class="label">Visualization: evidence vs marketing heat</div>
+<div class="content">
+<div class="viz">
+<svg viewBox="0 0 720 220" width="100%" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" style="font-family:-apple-system,'Noto Sans SC',sans-serif">
+<defs><style>.t{font-size:12px;font-weight:700;fill:#0d6e6e}.h{font-size:11px;font-weight:700;fill:#fff}.l{font-size:11px;fill:#5a7d7d}</style></defs>
+<text x="10" y="16" class="t">Hard-endpoint evidence (green) vs marketing heat (red)</text>
+<text x="10" y="50" class="l">Creatine</text>
+<rect x="120" y="38" width="380" height="16" fill="#3aa17e" rx="2"/><text x="310" y="51" text-anchor="middle" class="h">500+ RCTs</text>
+<rect x="120" y="58" width="120" height="10" fill="#c25543" rx="2"/>
+<text x="10" y="90" class="l">Omega-3</text>
+<rect x="120" y="78" width="320" height="16" fill="#3aa17e" rx="2"/><text x="280" y="91" text-anchor="middle" class="h">REDUCE-IT etc.</text>
+<rect x="120" y="98" width="220" height="10" fill="#c25543" rx="2"/>
+<text x="10" y="130" class="l">Vitamin D</text>
+<rect x="120" y="118" width="240" height="16" fill="#3aa17e" rx="2"/><text x="240" y="131" text-anchor="middle" class="h">Effective if stratified</text>
+<rect x="120" y="138" width="300" height="10" fill="#c25543" rx="2"/>
+<text x="10" y="170" class="l">NMN/NR</text>
+<rect x="120" y="158" width="70" height="16" fill="#3aa17e" rx="2"/><text x="155" y="171" text-anchor="middle" class="h">Mechanism</text>
+<rect x="120" y="178" width="500" height="10" fill="#c25543" rx="2"/>
+<text x="10" y="210" class="l">Resveratrol</text>
+<rect x="120" y="198" width="40" height="14" fill="#3aa17e" rx="2"/>
+<text x="640" y="50" class="l">Evidence</text>
+<text x="640" y="69" class="l" fill="#c25543">Marketing</text>
+</svg>
+<div class="viz-caption">Green = hard-endpoint RCT strength; red = marketing/search heat. NMN/NR/resveratrol are severely inverted.</div>
+</div></div></div>
+
+<div class="section"><div class="label">Actionable protocol</div>
+<div class="content"><div class="protocol">
+<b>Stance</b>: keep "NAD+ class" in the <em>watch pool</em>, not the core protocol.<br>
+<b>Substitute</b>: want NAD+ up? Lift weights + Zone 2 + adequate sleep — <strong>free and hard-endpoint-backed</strong>.<br>
+<b>If you insist on trying</b>: NR or NMN 500 mg/d for 12 weeks; measure pre/post performance (VO2max, grip), HOMA-IR, optionally GrimAge/PhenoAge clocks. No change → stop.<br>
+<b>Don't</b> bother with resveratrol — Sinclair's follow-on data retracted; isolated hepatotoxicity cases exist.
+</div></div></div>
+
+<div class="section"><div class="label">Women's note + common myths</div>
+<div class="content"><div class="female">Perimenopausal women are the prime target of "anti-aging stack" marketing. Mary Claire Haver's stance: the same monthly spend put toward an MHT consultation, strength-training coaching, and DEXA scans returns vastly more than an "NAD+ bundle." Prioritization, not all-or-nothing.</div>
+<div class="myth" style="margin-top:8px">Myth 1: "Blood NAD+ up = anti-aging" — surrogate endpoint ≠ clinical benefit (recall the early errors of LDL ≠ MI, BMD ≠ fracture).<br>Myth 2: "David Sinclair takes it, so I should" — single celebrity protocols ≠ population evidence; he himself revises it constantly.<br>Myth 3: "It's cheap, so evidence doesn't matter" — $1000/year × 30 years deserves RCT-grade scrutiny.</div></div></div>
+
+<div class="section"><div class="label">This week + reflection</div>
+<div class="content"><div class="tryit"><div class="label">THIS WEEK</div>List every "anti-aging" supplement you take and annualize the spend. The same dollars could buy: ① one full blood panel; ② 8 sessions of strength coaching; ③ a DEXA + VO2max test. Which helps the 5-years-from-now you most?<br><br>Reflection: when there's a 10–20-year gap between mechanism studies, animal data, and human hard endpoints, paying to be a guinea pig <strong>now</strong> vs <strong>waiting</strong> for Phase III RCTs — which posture is more rational, and what does it depend on?</div></div></div>
+</div>
+
+<div class="footer-section">
+<h2>📚 Resources</h2>
+<ul>
+<li>📕 Peter Attia. <i>Outlive</i>. 2023. — Ch.15, the disciplined stance on supplements</li>
+<li>📕 Examine.com database — RCT evidence grades by nutrient; the most neutral secondary source</li>
+<li>📄 Kreider RB, et al. ISSN exercise &amp; sport nutrition review: creatine. <i>JISSN</i>. 2017;14:18.</li>
+<li>📄 Manson JE, et al. (VITAL). Vitamin D supplements &amp; cancer/CVD prevention. <i>NEJM</i>. 2019;380:33-44.</li>
+<li>📄 Hahn J, et al. Vitamin D &amp; marine omega-3 in autoimmune disease (VITAL sub-trial). <i>BMJ</i>. 2022;376:e066452.</li>
+<li>📄 Forbes SC, et al. Creatine &amp; cognition: systematic review. <i>Eur J Nutr</i>. 2023.</li>
+<li>📄 Veronese N, et al. Magnesium &amp; cardiometabolic outcomes meta-analysis. <i>Eur J Clin Nutr</i>. 2016.</li>
+<li>🎙 Peter Attia podcast #265 — Supplements: a tactical breakdown</li>
+<li>🎙 Huberman Lab — Creatine for muscle, brain &amp; mood (2023)</li>
+</ul>
+</div>
+
+<div class="footer-section">
+<h2>🧠 Reflections</h2>
+
+<details><summary>① Why does the chain "mechanism → animal → human hard endpoint" so often break for NAD+ compounds?</summary>
+<div>Mouse lifespan is a single inbred strain in standardized cages — a reproducible phenotype. Humans are heterogeneous, long-lived, and complex in exposure. Historically, fewer than ~5% of nematode/mouse lifespan-extending interventions translate into clinical benefit in humans (rapamycin is a rare exception). For a mechanism to graduate into the "mature intervention" list, it must cross this translational gulf — typically a 10–20-year wait.</div></details>
+
+<details><summary>② "Test before you supplement" — why is it easy to say, hard to do?</summary>
+<div>Testing has friction: book, draw, wait, read, decide. Buying a supplement is one click. Behavioral economics: <strong>low-friction wrong</strong> beats <strong>high-friction right</strong>, repeatedly. The fix isn't moral willpower — it's process design: bundle an annual blood panel with your physical, and defer all supplement decisions until results land.</div></details>
+
+<details><summary>③ Public celebrity/expert protocols — popular science or noise amplifier?</summary>
+<div>Double-edged. Good: makes N=1 experiments transparent and sparks discussion. Bad: viewers misread "they do it" as "the evidence is in." Healthy posture: treat celebrity stacks as <strong>research direction hints</strong>, not <strong>prescriptions</strong>. Downgrade each line item by one evidence tier when you evaluate.</div></details>
+
+<details><summary>④ An intervention is "harmless but possibly useless" — pay to try, or skip?</summary>
+<div>Three variables: cost (annual × discounted lifespan), opportunity cost (the marginal return of putting that money into a higher-certainty intervention), psychic tax (cognitive load of swallowing pills daily). &lt;$70/yr, plausible mechanism, clean safety → fine to try. Thousands of dollars annually, mechanism only animal-level, eight capsules a day — usually not worth it.</div></details>
+
+<details><summary>⑤ When supplements become identity ("I'm in the longevity tribe"), how do you avoid fooling yourself?</summary>
+<div>Identity-laden decisions are the hardest to reverse — stopping = admitting you were wrong earlier. The best guardrail is a pre-committed <strong>stop rule</strong>: at the outset, write down "if marker X has not moved by week 12, I will stop." It frees the future you from sunk cost.</div></details>
+
+</div>
+
+<div class="nav"><a href="index.en.html">← Back to Index</a></div>
+
+</div></body></html>
